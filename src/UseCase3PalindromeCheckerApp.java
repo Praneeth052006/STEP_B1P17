@@ -1,16 +1,16 @@
 
-public class UseCase2PalindromeCheckerApp {
+public class UseCase3PalindromeCheckerApp {
 
     public static void main(String[] args) {
-
 
         String input = "madam";
 
 
         String reversed = "";
 
+
         for (int i = input.length() - 1; i >= 0; i--) {
-            reversed += input.charAt(i);
+            reversed = reversed + input.charAt(i);
         }
 
 
@@ -18,6 +18,7 @@ public class UseCase2PalindromeCheckerApp {
 
 
         System.out.println("Input: " + input);
+        System.out.println("Reversed: " + reversed);
         System.out.println("Is it a palindrome?: " + isPalindrome);
     }
 }
