@@ -1,2 +1,0 @@
-public class usecase1 {
-}
